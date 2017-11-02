@@ -13,17 +13,13 @@
 	    <p><a class="btn btn-lg btn-success" href="{{ url_for('main') }}" role="button">HOME</a></p>
         </div>
         <div class="row marketing">
-	    <div class="col-lg-4">
+	    <div class="col-lg-5">
                 <h4>Get CIM Info</h4>
 		<p><a class="btn btn-lg btn-success" href="{{ url_for('cim') }}" role="button">CIM</a></p>
-		<p style="white-space: pre;">{{ cim }}</p>
-	    </div>
-            <div class="col-lg-4">
-		<h4>Get OS Info</h4>
-		<p><a class="btn btn-lg btn-success" href="{{ url_for('os') }}" role="button">OS</a></p>
+		<p style="white-space: pre;">{{ interface }}</p>
 		<p style="word-wrap: break-word;">{{ os }}</p>
-            </div>
-    	    <div class="col-lg-4">
+	    </div>
+    	    <div class="col-lg-5">
 		<h4>Get SNMP Info</h4>
 		<p><a class="btn btn-lg btn-success" href="{{ url_for('snmp') }}" role="button">SNMP</a></p>
 		<p style="white-space: pre;">{{ snmp }}</p>
