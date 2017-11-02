@@ -1,0 +1,39 @@
+NET-SNMP version 5.7.2 AgentX subagent connected
+NET-SNMP version 5.7.2
+2017-10-20 14:36:10 localhost [UDP: [127.0.0.1]:41421->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1831404) 5:05:14.04	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 220363
+2017-10-20 14:37:20 localhost [UDP: [127.0.0.1]:55424->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1838429) 5:06:24.29	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 220976
+2017-10-20 14:39:41 localhost [UDP: [127.0.0.1]:50741->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1852502) 5:08:45.02	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 221662
+2017-10-20 14:41:02 localhost [UDP: [127.0.0.1]:33007->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1860538) 5:10:05.38	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 222311
+2017-10-20 14:42:32 localhost [UDP: [127.0.0.1]:58168->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1869571) 5:11:35.71	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 222912
+2017-10-20 14:43:42 localhost [UDP: [127.0.0.1]:51031->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1876608) 5:12:46.08	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 223581
+2017-10-20 14:45:13 localhost [UDP: [127.0.0.1]:40893->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1885658) 5:14:16.58	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 224263
+2017-10-20 14:46:33 localhost [UDP: [127.0.0.1]:42991->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1893690) 5:15:36.90	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 224938
+2017-10-20 14:47:33 localhost [UDP: [127.0.0.1]:34808->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1899713) 5:16:37.13	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 225682
+2017-10-20 14:48:54 localhost [UDP: [127.0.0.1]:43651->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1907756) 5:17:57.56	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 226312
+2017-10-20 14:49:54 localhost [UDP: [127.0.0.1]:38955->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1913793) 5:18:57.93	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 226928
+2017-10-20 14:50:54 localhost [UDP: [127.0.0.1]:59473->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1919824) 5:19:58.24	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 227540
+2017-10-20 14:52:05 localhost [UDP: [127.0.0.1]:46341->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1926850) 5:21:08.50	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 228160
+2017-10-20 14:53:15 localhost [UDP: [127.0.0.1]:33544->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1933879) 5:22:18.79	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 228819
+2017-10-20 14:54:56 localhost [UDP: [127.0.0.1]:56813->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1943933) 5:23:59.33	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 229425
+2017-10-20 14:56:46 localhost [UDP: [127.0.0.1]:37269->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1954982) 5:25:49.82	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 230033
+2017-10-20 14:57:56 localhost [UDP: [127.0.0.1]:55874->[127.0.0.1]:162]:
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (1962008) 5:27:00.08	SNMPv2-MIB::snmpTrapOID.0 = OID: SNMPv2-SMI::enterprises.12345.1	SNMPv2-MIB::sysName.0 = STRING: sahara20	IP-MIB::ipInReceives.0 = Counter32: 230650
+2017-10-20 14:59:31 NET-SNMP version 5.7.2 Stopped.
+Stopping snmptrapd
+

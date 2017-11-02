@@ -1,0 +1,29 @@
+NTNU-NOTIFICATION-MIB DEFINITIONS ::= BEGIN
+
+IMPORTS 
+  NOTIFICATION-TYPE,
+  MODULE-IDENTITY,
+  OBJECT-TYPE,
+  enterprises
+    FROM SNMPv2-SMI
+  OBJECT-GROUP
+    FROM SNMPv2-CONF;
+    
+luisMibModule MODULE-IDENTITY
+  LAST-UPDATED "1710191737Z"
+  ORGANIZATION "NTNU ttm4128 Group 8"
+  CONTACT-INFO "Luis Tome Pinto de Almeida Borges"
+  DESCRIPTION "Que pasa Hobre, plata o plomo?"
+  REVISION "1710191737Z"
+  DESCRIPTION "Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!Plata!"
+::= { enterprises 12345 2 }
+
+luis     OBJECT IDENTIFIER ::= { enterprises 12345 }
+luisnotification	OBJECT IDENTIFIER ::= { luis 1 }
+
+luisnotif NOTIFICATION-TYPE
+  STATUS current
+  DESCRIPTION "Hello, this is Doug!"
+::= { luis 1 }
+
+END
