@@ -6,7 +6,7 @@ conn = pywbem.WBEMConnection('http://ttm4128.item.ntnu.no:5988/cimom')
 
 @app.route('/OS')
 def os():
-    os = conn.EnumerateInstances('CIM_OperatingSystem')[0]['Version'].replace(' ', '\n')
+    os = conn.EnumerateInstances('CIM_OperatingSystem')[0]['Version']#.replace(' ', '\n')
     return render_template('index.html', os=os)
 
 @app.route('/CIM')

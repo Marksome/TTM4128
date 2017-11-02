@@ -16,19 +16,19 @@
 	    <div class="col-lg-4">
                 <h4>Get CIM Info</h4>
 		<p><a class="btn btn-lg btn-success" href="{{ url_for('cim') }}" role="button">CIM</a></p>
-		<p style="white-space: pre">{{ cim }}</p>
+		<p style="white-space: pre;">{{ cim }}</p>
 	    </div>
             <div class="col-lg-4">
 		<h4>Get OS Info</h4>
 		<p><a class="btn btn-lg btn-success" href="{{ url_for('os') }}" role="button">OS</a></p>
-		<p style="white-space: pre">{{ os }}</p>
+		<p style="word-wrap: break-word;">{{ os }}</p>
             </div>
     	    <div class="col-lg-4">
 		<h4>Get SNMP Info</h4>
 		<p><a class="btn btn-lg btn-success" href="{{ url_for('snmp') }}" role="button">SNMP</a></p>
-		<p style="white-space: pre">{{ snmp }}</p>
+		<p style="white-space: pre;">{{ snmp }}</p>
             </div>
-        </div>
+	</div>
         <footer class="footer">
             <p>&copy; Markus Andersen 2017</p>
         </footer>
