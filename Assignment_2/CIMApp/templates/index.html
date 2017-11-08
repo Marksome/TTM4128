@@ -14,15 +14,30 @@
         </div>
         <div class="row marketing">
 	    <div class="col-lg-5">
-                <h4>Get CIM Info</h4>
-		<p><a class="btn btn-lg btn-success" href="{{ url_for('cim') }}" role="button">CIM</a></p>
-		<p style="white-space: pre;">{{ interface }}</p>
-		<p style="word-wrap: break-word;">{{ os }}</p>
+                <h4>Get info using CIM</h4>
+		<div class="form-group">
+		    <form action="/CIM" method="POST">
+			<div class="col-lg-10">
+			    <p><input type="text" class="form-control" name="name" value="http://ttm4128.item.ntnu.no:5988/cimom"></p>
+			    <p><input class="btn btn-md btn-success" type="submit" name="my-form" value="GET"></p>
+			</div>
+    		    </form>
+		    <p style="white-space: pre;">{{ os }}</p>
+		    <p style="white-space: pre;">{{ interface }}</p>
+		</div>
 	    </div>
     	    <div class="col-lg-5">
-		<h4>Get SNMP Info</h4>
-		<p><a class="btn btn-lg btn-success" href="{{ url_for('snmp') }}" role="button">SNMP</a></p>
-		<p style="white-space: pre;">{{ snmp }}</p>
+		<h4>Get info using SNMP</h4>
+		<div class="form-group">
+		    <form action="/SNMP" method="POST">
+			<div class="col-lg-6">
+			    <p><input type="text" class="form-control" name="name" value="sahara30.item.ntnu.no"></p>
+			    <p><input class="btn btn-md btn-success" type="submit" name="my-form" value="GET"></p>
+			</div>
+    		    </form>
+		    <p style="word-wrap: break-word;">{{ snmp }}</p>
+		    <p style="word-wrap: break-word;">{{ snmp_interface }}</p>
+		</div>
             </div>
 	</div>
         <footer class="footer">
